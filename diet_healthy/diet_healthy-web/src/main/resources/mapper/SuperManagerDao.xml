@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.swpu.diet_healthydao.SuperManagerDao" >
+   <select id="findAllManager" resultType="manager">
+   		select * from manager
+   </select>
+   <select id="findManager" parameterType="String" resultType="manager">
+   		select * from manager where name=#{name}
+   </select>
+   <select id="findManagerByNameAndActor" parameterType="manager" resultType="manager">
+   		select * from manager where name=#{name} and actor=#{actor}
+   </select>
+   <delete id="deleteManager" parameterType="Integer">
+   		delete from manager where id=#{id}
+   </delete>
+   <update id="modifyManager" parameterType="manager">
+   		update manager
+   		<set>
+   			<if test="name != null and name != ''">
+                name=#{name},
+            </if>
+            <if test="password != null and password != ''">
+                password=#{password},
+            </if>
+            <if test="actor != null and actor != ''">
+                actor=#{actor},
+            </if>
+            <if test="true">
+                modified=curdate()
+            </if>
+   		</set>
+   		where id=#{id}
+   </update>
+   <insert id="addManager" parameterType="manager">
+   		insert into manager(`name`,password,actor,creation,modified) values(#{name},#{password},#{actor},curdate(),curdate())
+   </insert>
+   <select id="searchManager" parameterType="manager" resultType="manager">
+   		select * from manager where name=#{name} AND actor=#{actor}
+   </select>
+</mapper>
+
+
+
+

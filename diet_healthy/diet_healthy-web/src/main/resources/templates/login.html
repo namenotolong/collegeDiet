@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" charset="UTF-8">
+    <title>登陆</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="/webjars/jquery/3.3.1-2/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!--主要样式控制-->
+    <link href="/css/main.css" rel="stylesheet">
+    <style>
+        #myForm{
+            width: 600px;
+            height: 320px;
+            padding: 13px;
+            position: absolute;
+            left: 65%;
+            top: 50%;
+            margin-left: -200px;
+            margin-top: -200px;
+            border-radius: 10px;
+            text-align: center;
+            border:1px solid #000;
+        }
+    </style>
+</head>
+<body style="background-color: rgba(125, 79, 115, 0.5)">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">西南石油大学团队 </a>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="media">
+        <a class="media-left" href="">
+
+        </a>
+    </div>
+    <div id="myForm">
+        <span th:text="${msg}" style="color: red"></span>
+        <form class="form-horizontal" role="form" method="post" action="imgvrifyControllerDefaultKaptcha" onsubmit="return check()">
+            <div class="form-group-lg">
+                <h1 class="well-lg">大学生健康饮食后台管理系统</h1>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <input type="text" placeholder="username" class="form-control" id="username" name="username"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <input type="password" placeholder="password" class="form-control" id="password" name="password"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-4">
+                    <input type="radio" name="identity" value="1" id="r1"/>&nbsp;<label for="r1">超级管理员</label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="radio" name="identity" value="2" id="r2"/>&nbsp;<label for="r2">菜谱管理员</label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="radio" name="identity" value="3" id="r3"/>&nbsp;<label for="r3">用户管理员</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" placeholder="code" id="yanzhengma" name="yanzhengma"/>
+                </div>
+                <div class="col-sm-6">
+                    <img alt="验证码" onclick="this.src='/defaultKaptcha?d='+new Date()*1" src="/defaultKaptcha" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div >
+                    <button type="submit" class="btn btn-info btn-block">登陆</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

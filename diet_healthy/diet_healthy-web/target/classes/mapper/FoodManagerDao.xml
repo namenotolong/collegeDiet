@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.swpu.diet_healthydao.FoodManagerDao" >
+    <!--口味类别-->
+    <select id="checkAllFlavor" parameterType="page" resultType="flavor">
+   		select * from flavor LIMIT #{startIndex},#{perList}
+   </select>
+    <select id="getFlavorCount" resultType="Integer">
+        select COUNT(*) from flavor
+    </select>
+    <delete id="deleteFlavor" parameterType="Integer">
+   		delete from flavor where id=#{id}
+   </delete>
+    <update id="modifyFlavor" parameterType="flavor">
+        update flavor set name=#{name},modified=curdate() where id=#{id}
+    </update>
+    <select id="checkFlavorName" resultType="flavor" parameterType="flavor">
+        select * from flavor where name=#{name}
+    </select>
+    <insert id="addFlavor" parameterType="flavor">
+        insert into flavor(`name`,creation,modified) values(#{name},curdate(),curdate())
+    </insert>
+    <select id="searchFlavor" parameterType="flavor" resultType="flavor">
+        select * from flavor where name=#{name}
+    </select>
+    <!--菜品类别-->
+    <select id="checkAllFood" parameterType="page" resultType="food">
+   		select * from food LIMIT #{startIndex},#{perList}
+   </select>
+    <select id="getFoodCount" resultType="Integer">
+        select COUNT(*) from food
+    </select>
+    <delete id="deleteFood" parameterType="Integer">
+   		delete from food where id=#{id}
+   </delete>
+    <update id="modifyFood" parameterType="food">
+        update food
+        <set>
+            <if test="name != null and name != ''">
+                name=#{name},
+            </if>
+            <if test="kind != null and kind != ''">
+                kind=#{kind},
+            </if>
+            <if test="hot != null and hot != ''">
+                hot=#{hot},
+            </if>
+            <if test="carbohydrate != null and carbohydrate != ''">
+                carbohydrate=#{carbohydrate},
+            </if>
+            <if test="protein != null and protein != ''">
+                protein=#{protein},
+            </if>
+            <if test="vitaminA != null and vitaminA != ''">
+                vitaminA=#{vitaminA},
+            </if>
+            <if test="fat != null and fat != ''">
+                fat=#{fat},
+            </if>
+            <if test="introduce1 != null and introduce1 != ''">
+                introduce1=#{introduce1},
+            </if>
+            <if test="introduce2 != null and introduce2 != ''">
+                introduce2=#{introduce2},
+            </if>
+            <if test="true">
+                modified=curdate(),
+            </if>
+        </set>
+        where id=#{id}
+    </update>
+    <select id="checkFoodName" resultType="food" parameterType="food">
+        select * from food where name=#{name}
+    </select>
+    <insert id="addFood" parameterType="food">
+   		insert into food(name,kind,hot,introduce1, introduce2,
+   		carbohydrate, protein, vitaminA, fat, creation, modified) values(#{name},#{kind},#{hot},
+   		#{introduce1},#{introduce2},#{carbohydrate},#{protein},#{vitaminA}, #{fat}, curdate(), curdate())
+   </insert>
+    <select id="getCooksofFood" resultType="cook" parameterType="Integer">
+        SELECT
+            c. NAME,
+            c.id
+        FROM
+            f_c m
+        LEFT JOIN food f ON m.food_id = f.id
+        LEFT JOIN cook c ON c.id = m.cook_id
+        WHERE
+            m.food_id =#{value};
+    </select>
+    <delete id="delCookOfFood" parameterType="f_c">
+        delete from f_c where food_id=#{food_id} and cook_id=#{cook_id}
+    </delete>
+    <insert id="addCookOfFood" parameterType="f_c">
+        insert into f_c(food_id, cook_id) values(#{food_id}, #{cook_id})
+    </insert>
+    <select id="checkCookOfFood" parameterType="Integer" resultType="cook">
+        select * from cook where id = #{id}
+    </select>
+    <select id="checkCookOfFood1" parameterType="f_c" resultType="f_c">
+        select * from f_c where cook_id = #{cook_id} and food_id=#{food_id}
+    </select>
+    <select id="searchFood" parameterType="food" resultType="food">
+        select * from food
+        <where>
+            <if test="id != null and id != ''">
+                id=#{id}
+            </if>
+            <if test="name != null and name != ''">
+                and name=#{name}
+            </if>
+            <if test="kind != null and kind != ''">
+                and kind=#{kind}
+            </if>
+        </where>
+        LIMIT #{start},#{end}
+    </select>
+    <select id="searchFoodCount" parameterType="food" resultType="Integer">
+        select COUNT(*) from food
+        <where>
+            <if test="id != null and id != ''">
+                id=#{id}
+            </if>
+            <if test="name != null and name != ''">
+                and name=#{name}
+            </if>
+            <if test="kind != null and kind != ''">
+                and kind=#{kind}
+            </if>
+        </where>
+    </select>
+    <select id="showFood" resultType="food" parameterType="Integer">
+        select introduce1,introduce2 from food where id=#{id}
+    </select>
+    <update id="addFoodPicture" parameterType="food">
+        update food set picture=#{picture},modified=curdate() where id=#{id}
+    </update>
+    <update id="updateFoodDate" parameterType="Integer">
+        update food set modified=curdate() where id=#{id}
+    </update>
+    <!--菜谱类别-->
+    <select id="checkAllCook" parameterType="page" resultType="cook">
+   		select * from cook LIMIT #{startIndex},#{perList}
+   </select>
+    <select id="getCookCount" resultType="Integer">
+        select COUNT(*) from cook
+    </select>
+    <insert id="addCook" parameterType="cook">
+   		insert into cook(name,weather,time,introduce1, introduce2,creation, modified)
+   		 values(#{name},#{weather},#{time},
+   		#{introduce1},#{introduce2},curdate(), curdate())
+   </insert>
+    <select id="checkCookName" resultType="cook" parameterType="cook">
+        select * from cook where name=#{name}
+    </select>
+    <delete id="deleteCook" parameterType="Integer">
+   		delete from cook where id=#{id}
+   </delete>
+    <update id="modifyCook" parameterType="cook">
+        update cook
+        <set>
+            <if test="name != null and name != ''">
+                name=#{name},
+            </if>
+            <if test="weather != null and weather != ''">
+                weather=#{weather},
+            </if>
+            <if test="time != null and time != ''">
+                time=#{time},
+            </if>
+            <if test="introduce1 != null and introduce1 != ''">
+                introduce1=#{introduce1},
+            </if>
+            <if test="introduce2 != null and introduce2 != ''">
+                introduce2=#{introduce2},
+            </if>
+            <if test="true">
+                modified=curdate(),
+            </if>
+        </set>
+        where id=#{id}
+    </update>
+    <select id="getFoodsOfCook" resultType="food" parameterType="Integer">
+        SELECT
+            f. NAME,
+            f.id
+        FROM
+            f_c m
+        LEFT JOIN cook c ON m.cook_id = c.id
+        LEFT JOIN food f ON f.id = m.food_id
+        WHERE
+            m.cook_id =#{value};
+    </select>
+    <select id="checkFoodOfCook" parameterType="Integer" resultType="food">
+        select * from food where id = #{id}
+    </select>
+    <select id="searchCook" parameterType="cook" resultType="cook">
+        select * from cook
+        <where>
+            <if test="id != null and id != ''">
+                id=#{id}
+            </if>
+            <if test="name != null and name != ''">
+                and name=#{name}
+            </if>
+            <if test="weather != null and weather != ''">
+                and weather=#{weather}
+            </if>
+            <if test="time != null and time != ''">
+                and time=#{time}
+            </if>
+        </where>
+        LIMIT #{start},#{end}
+    </select>
+    <select id="searchCookCount" parameterType="cook" resultType="Integer">
+        select COUNT(*) from cook
+        <where>
+            <if test="id != null and id != ''">
+                id=#{id}
+            </if>
+            <if test="name != null and name != ''">
+                and name=#{name}
+            </if>
+            <if test="weather != null and weather != ''">
+                and weather=#{weather}
+            </if>
+            <if test="time != null and time != ''">
+                and time=#{time}
+            </if>
+        </where>
+    </select>
+    <select id="showCook" resultType="cook" parameterType="Integer">
+        select introduce1,introduce2 from cook where id=#{id}
+    </select>
+    <update id="addCookPicture" parameterType="cook">
+        update cook set picture=#{picture},modified=curdate() where id=#{id}
+    </update>
+    <update id="updateCookDate" parameterType="Integer">
+        update cook set modified=curdate() where id=#{id}
+    </update>
+</mapper>

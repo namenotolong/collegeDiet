@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/diet_healthy.iml" filepath="$PROJECT_DIR$/diet_healthy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diet_healthy-common/diet_healthy-common.iml" filepath="$PROJECT_DIR$/diet_healthy-common/diet_healthy-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diet_healthy-dao/diet_healthy-dao.iml" filepath="$PROJECT_DIR$/diet_healthy-dao/diet_healthy-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diet_healthy-domain/diet_healthy-domain.iml" filepath="$PROJECT_DIR$/diet_healthy-domain/diet_healthy-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diet_healthy-service/diet_healthy-service.iml" filepath="$PROJECT_DIR$/diet_healthy-service/diet_healthy-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diet_healthy-web/diet_healthy-web.iml" filepath="$PROJECT_DIR$/diet_healthy-web/diet_healthy-web.iml" />
+    </modules>
+  </component>
+</project>

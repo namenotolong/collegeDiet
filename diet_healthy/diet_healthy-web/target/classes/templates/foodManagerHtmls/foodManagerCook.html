@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>foodManagerFlavor</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <script type="text/javascript" src="/webjars/jquery/3.3.1-2/jquery.js"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+</head>
+<body>
+<div class="container" th:fragment="cook">
+    <div class="well">
+        <h2>菜谱管理<small><span th:text="${msg}" style="color: red"></span></small></h2>
+    </div>
+    <div th:fragment="searchCook">
+        <form class="form-horizontal" role="form" onsubmit="return searchCook()"
+              method="post" id="searchFoodForm" action="/searchCook">
+            <div class="form-group">
+                <div class="col-sm-1">
+                    <label>菜谱编号</label>
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" placeholder="请输入菜谱编号（可选择）" name="id" id="SearchCookId">
+                </div>
+                <div class="col-sm-1">
+                    <label>菜谱名称</label>
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" placeholder="请输入菜谱名称（可选择）" name="name" id="SearchCookName">
+                </div>
+                <div class="col-sm-1">
+                    <label>适宜天气</label>
+                </div>
+                <div class="col-sm-2">
+                    <select name="weather" class="form-control" id="SearchCookWeather">
+                        <option selected>请选择（可选）</option>
+                        <option>雨天</option>
+                        <option>阴天</option>
+                        <option>晴天</option>
+                        <option>春天</option>
+                        <option>夏天</option>
+                        <option>秋天</option>
+                        <option>冬天</option>
+                    </select>
+                </div>
+                <div class="col-sm-1">
+                    <label>适宜时间</label>
+                </div>
+                <div class="col-sm-1">
+                    <select name="time" class="form-control" id="SearchCookTime">
+                        <option selected>请选择（可选）</option>
+                        <option>早上</option>
+                        <option>中午</option>
+                        <option>晚上</option>
+                        <option>夜宵</option>
+                    </select>
+                </div>
+                <div class="col-sm-1">
+                    <button type="submit" class="btn btn-primary">查询</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <hr>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+            <tr class="active">
+                <th>编号</th>
+                <th>名称</th>
+                <th>图片</th>
+                <th>适宜天气</th>
+                <th>适宜时间</th>
+                <th>加入时间</th>
+                <th>上次修改时间</th>
+                <th>组成原料</th>
+                <th colspan=3>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="success" th:each="food:${session.searchCook.getList()}">
+                <td th:text="${food.id}"></td>
+                <td th:text="${food.name}"></td>
+                <td><img th:src="@{'/upload/cook/'+${food.picture}}" width="90" height="90"><br>
+                    <button type="button" class="btn btn-default" th:onclick="'javascript:changePictureForCook('+${food.id}+');'">更换</button>
+                </td>
+                <td th:text="${food.weather}"></td>
+                <td th:text="${food.time}"></td>
+                <td th:text="${food.creation}"></td>
+                <td th:text="${food.modified}"></td>
+                <td style="text-align: right">
+                    <div th:each="cook:${food.foods}" th:if="${cook!=null}">
+                        <span th:text="${cook.name}"></span>
+                        <button type="button" class="btn btn-danger btn-xs" style="right: 0" th:onclick="'javascript:delFoodOfCook('+${food.id}+','+${cook.id}+');'">删除</button>
+                    </div>
+                    <button type="button" class="btn btn-success" th:onclick="'javascript:addFoodOfCook('+${food.id}+');'">增加</button>
+                </td>
+                <td><button type="button" class="btn btn-warning" th:onclick="'javascript:modifyCook('+${food.id}+');'">修改</button></td>
+                <td><button type="button" class="btn btn-danger" th:onclick="'javascript:delCook('+${food.id}+');'">删除</button></td>
+                <td><button type="button" class="btn btn-default" th:onclick="'javascript:showCook('+${food.id}+');'">详细介绍</button></td>
+            </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript" th:inline="javascript">
+            function toFlavorPage(){
+                var count = $("#page option:selected").val();
+                location='/checkCook'+'/'+count;
+            }
+        </script>
+        <nav>
+            <ul class="pager">
+                <li class="disabled" th:if="${session.searchCook.getCurrentPage()==1}"><a href="">首页</a> </li>
+                <li th:if="${session.searchCook.getCurrentPage()!=1}"><a th:href="@{/checkCook}">首页</a> </li>
+                <li class="disabled" th:if="${session.searchCook.getCurrentPage()==1}"><a href="">上一页</a> </li>
+                <li th:if="${session.searchCook.getCurrentPage()!=1}"><a th:href="@{'/checkCook/'+${session.searchCook.getCurrentPage()-1}}">上一页</a> </li>
+                <li class="disabled" th:if="${session.searchCook.getCurrentPage()==session.searchCook.getPageCount()}"><a href="#">下一页</a> </li>
+                <li th:if="${session.searchCook.getCurrentPage()!=session.searchCook.getPageCount()}"><a th:href="@{'/checkCook/'+${session.searchCook.getCurrentPage()+1}}">下一页</a> </li>
+                <li class="disabled" th:if="${session.searchCook.getCurrentPage()==session.searchCook.getPageCount()}"><a href="#">末页</a> </li>
+                <li th:if="${session.searchCook.getCurrentPage()!=session.searchCook.getPageCount()}"><a th:href="@{'/checkCook/'+${session.searchCook.getPageCount()}}">末页</a> </li>
+                <li><select class="btn btn-default" id="page">
+                    <option th:each="i:${#numbers.sequence(1, session.searchCook.getPageCount())}" th:value="${i}"
+                            th:text="${i}" th:selected="${session.searchCook.getCurrentPage() eq i}" ></option>
+                </select></li>
+                <li><button type="button" class="btn btn-primary" onclick="toFlavorPage()">跳转</button> </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</body>
+</html>

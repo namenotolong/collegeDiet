@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="diet_healthy-web:Web2 exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/diet_healthy_web_Web2_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="diet_healthy-web/web/Web2" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="diet_healthy-web" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="diet_healthy-web/web/Web" />
+    </root>
+  </artifact>
+</component>

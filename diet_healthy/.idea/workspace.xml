@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="caad66c0-3361-461a-8c8a-b9002c19fa01" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/diet_healthy-common/target/" />
+    <ignored path="$PROJECT_DIR$/diet_healthy-dao/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/diet_healthy-service/target/" />
+    <ignored path="$PROJECT_DIR$/diet_healthy-domain/target/" />
+    <ignored path="$PROJECT_DIR$/diet_healthy-web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1998062169">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.131" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.72" value="2" />
+          <entry key="project.open.time.76" value="1" />
+          <entry key="project.open.time.78" value="1" />
+          <entry key="project.open.time.855" value="1" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1-SNAPSHOT" value="2" />
+          <entry key="StudentManagerDao" value="4" />
+          <entry key="css" value="5" />
+          <entry key="html" value="169" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="359" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="2" />
+          <entry key="log" value="2" />
+          <entry key="properties" value="8" />
+          <entry key="rnc" value="2" />
+          <entry key="ts" value="1" />
+          <entry key="xml" value="99" />
+          <entry key="yml" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="169" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="359" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="8" />
+          <entry key="RNG Compact" value="2" />
+          <entry key="TypeScript" value="1" />
+          <entry key="UML" value="2" />
+          <entry key="XML" value="103" />
+          <entry key="YAML" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="StudentManagerDao" value="22" />
+          <entry key="css" value="3" />
+          <entry key="html" value="9965" />
+          <entry key="java" value="15945" />
+          <entry key="properties" value="294" />
+          <entry key="xml" value="2604" />
+          <entry key="yml" value="54" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="9965" />
+          <entry key="JAVA" value="15945" />
+          <entry key="Properties" value="294" />
+          <entry key="SQL" value="39" />
+          <entry key="XML" value="2587" />
+          <entry key="YAML" value="54" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="diet_healthy" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>myModal</find>
+      <find>searchFlavorName</find>
+      <find>searchFood</find>
+      <find>searchCook</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="H:/git" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/FoodManagers.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-dao/src/main/java/com/swpu/diet_healthydao/SuperManagerDao.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/SuperManagerService.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/impl/SuperManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/controller/superController/SuperManagerController.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Page.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerIndex.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/F_c.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerSearchFood.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Message.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/base/BaseDomain.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerFlavor.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/userManagerHtmls/userManagerIndex.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/controller/KaptchaController.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-dao/src/main/java/com/swpu/diet_healthydao/ManagerDao.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/ManagerService.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/impl/ManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/controller/ManagerController.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-dao/src/main/java/com/swpu/diet_healthydao/UserManagerDao.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/mapper/UserManagerDao.xml" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/mapper/StudentManagerDao" />
+        <option value="$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Flavor.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Manager.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/mapper/ManagerDao.xml" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/mapper/SuperManagerDao.xml" />
+        <option value="$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Student.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/mapper/StudentManagerDao.xml" />
+        <option value="$PROJECT_DIR$/diet_healthy-dao/src/main/java/com/swpu/diet_healthydao/StudentManagerDao.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/StudentManagerService.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/impl/StudentManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/userManagerHtmls/studentManagerSearch.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/userManagerHtmls/studentManagerShow.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManager.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerCook.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerCookSearch.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerFood.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerSearch.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Cook.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/controller/userManagerController/UsermanagerController.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/superManager.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/userManager.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Food.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-dao/src/main/java/com/swpu/diet_healthydao/FoodManagerDao.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/FoodManagerService.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/impl/FoodManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/mapper/FoodManagerDao.xml" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/controller/foodManagerController/FoodManagerController.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/configur/MyMvcConfig.java" />
+        <option value="$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/configur/MyInterceptor.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="diet_healthy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="diet_healthy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="diet_healthy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="diet_healthy-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="diet_healthy-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="35" />
+    <option name="y" value="35" />
+    <option name="width" value="1750" />
+    <option name="height" value="985" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>AccessibilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJava</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CDI (Contexts and Dependency Injection)</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>CollectionsScala</id>
+          </State>
+          <State>
+            <id>Control flow issuesGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>FreeMarker</id>
+          </State>
+          <State>
+            <id>GPathGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralScala</id>
+          </State>
+          <State>
+            <id>Google App Engine</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>IndicesCollectionsScala</id>
+          </State>
+          <State>
+            <id>InitializationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>Java language level issuesJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>LintLintAndroid</id>
+          </State>
+          <State>
+            <id>LoggingJava</id>
+          </State>
+          <State>
+            <id>MemoryJava</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Method signatureScala</id>
+          </State>
+          <State>
+            <id>Naming conventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsKotlin</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OptionsCollectionsScala</id>
+          </State>
+          <State>
+            <id>Other problemsKotlin</id>
+          </State>
+          <State>
+            <id>OtherCollectionsScala</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>PortabilityJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Reflective accessJava</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+          <State>
+            <id>Scala/Akka</id>
+          </State>
+          <State>
+            <id>SecurityJava</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Simplifications: filter and existsCollectionsScala</id>
+          </State>
+          <State>
+            <id>Simplifications: forall and existsCollectionsScala</id>
+          </State>
+          <State>
+            <id>Simplifications: otherCollectionsScala</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Struts 2Struts</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>StyleGroovy</id>
+          </State>
+          <State>
+            <id>Syntactic ClarificationScala</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>UI Form</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Velocity</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructsJava</id>
+          </State>
+          <State>
+            <id>VisibilityJava</id>
+          </State>
+          <State>
+            <id>WebSocket</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="diet_healthy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diet_healthy" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555070727063" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="H:/git" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\sssssss\diet_healthy\diet_healthy-web\src\main\resources\static\images.cook" />
+      <recent name="H:\sssssss\diet_healthy\diet_healthy-web\src\main\resources\static\images\food" />
+      <recent name="H:\sssssss\diet_healthy\diet_healthy-domain\src\main\java\com\swpu\diet_healthydomain\base" />
+      <recent name="H:\sssssss\diet_healthy\diet_healthy-web\src\main\resources\templates" />
+      <recent name="H:\sssssss\diet_healthy\diet_healthy-web\src\main\resources\static\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DietHealthyWebApplication">
+    <configuration name="FoodManagerController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.swpu.diet_healthyweb.controller.foodManagerController.FoodManagerController" />
+      <module name="diet_healthy-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swpu.diet_healthyweb.controller.foodManagerController.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.swpu.diet_healthyweb.logger.HelloWorld" />
+      <module name="diet_healthy-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swpu.diet_healthyweb.logger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyInterceptor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.swpu.diet_healthyweb.configur.MyInterceptor" />
+      <module name="diet_healthy-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swpu.diet_healthyweb.configur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsermanagerController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.swpu.diet_healthyweb.controller.userManagerController.UsermanagerController" />
+      <module name="diet_healthy-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swpu.diet_healthyweb.controller.userManagerController.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swpu.domain.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DietHealthyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="diet_healthy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swpu.diet_healthy.DietHealthyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DietHealthyCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="diet_healthy-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swpu.diet_healthycommon.DietHealthyCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DietHealthyDaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="diet_healthy-dao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swpu.diet_healthydao.DietHealthyDaoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DietHealthyDomainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="diet_healthy-domain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swpu.diet_healthydomain.DietHealthyDomainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DietHealthyServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="diet_healthy-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swpu.diet_healthyservice.DietHealthyServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DietHealthyWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="diet_healthy-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swpu.diet_healthyweb.DietHealthyWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DietHealthyApplication" />
+      <item itemvalue="Spring Boot.DietHealthyCommonApplication" />
+      <item itemvalue="Spring Boot.DietHealthyDaoApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.DietHealthyServiceApplication" />
+      <item itemvalue="Spring Boot.DietHealthyDomainApplication" />
+      <item itemvalue="Spring Boot.DietHealthyWebApplication" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.UsermanagerController" />
+      <item itemvalue="Application.FoodManagerController" />
+      <item itemvalue="Application.MyInterceptor" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyInterceptor" />
+        <item itemvalue="Application.FoodManagerController" />
+        <item itemvalue="Application.UsermanagerController" />
+        <item itemvalue="Application.HelloWorld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caad66c0-3361-461a-8c8a-b9002c19fa01" name="Default Changelist" comment="" />
+      <created>1553920723097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553920723097</updated>
+      <workItem from="1553920727088" duration="22912000" />
+      <workItem from="1553993134390" duration="1282000" />
+      <workItem from="1553994920723" duration="49000" />
+      <workItem from="1553995050635" duration="50000" />
+      <workItem from="1554178839578" duration="153000" />
+      <workItem from="1554299586778" duration="624000" />
+      <workItem from="1554337158813" duration="41000" />
+      <workItem from="1554430404370" duration="33273000" />
+      <workItem from="1554510851460" duration="28826000" />
+      <workItem from="1554595261134" duration="20444000" />
+      <workItem from="1554634507185" duration="15655000" />
+      <workItem from="1554682011749" duration="20359000" />
+      <workItem from="1554717589318" duration="11080000" />
+      <workItem from="1554769896299" duration="44360000" />
+      <workItem from="1554869760693" duration="10570000" />
+      <workItem from="1554885093186" duration="2533000" />
+      <workItem from="1554902566209" duration="5256000" />
+      <workItem from="1554942577147" duration="3014000" />
+      <workItem from="1554968402032" duration="4570000" />
+      <workItem from="1555061537047" duration="3023000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="228074000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.50108933" side_tool="true" weight="0.27345845" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Web" order="4" sideWeight="0.5019157" side_tool="true" weight="0.27345845" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49891067" visible="true" weight="0.30965146" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32960895" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Run" order="13" weight="0.31564245" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.50108933" side_tool="true" weight="0.27345845" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Web" order="4" sideWeight="0.5019157" side_tool="true" weight="0.27345845" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49891067" visible="true" weight="0.29758713" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32960895" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info active="true" anchor="bottom" id="Run" order="13" visible="true" weight="0.22905028" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/controller/StudentController.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/java/jdk/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar!/com/fasterxml/jackson/annotation/JsonFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-682">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-dao/src/main/java/com/swpu/diet_healthydao/SuperManagerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/SuperManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/F_c.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Flavor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1005">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/mapper/ManagerDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/mapper/SuperManagerDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/mapper/StudentManagerDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-752">
+          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-dao/src/main/java/com/swpu/diet_healthydao/StudentManagerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/StudentManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/impl/StudentManagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="55" column="59" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/userManagerHtmls/userManagerIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/userManagerHtmls/studentManagerShow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="282" column="53" lean-forward="true" selection-start-line="282" selection-start-column="53" selection-end-line="282" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerIndex.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/userManagerHtmls/studentManagerSearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerFood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerSearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerFlavor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerCookSearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/DietHealthyWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/controller/userManagerController/UsermanagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="135" column="21" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getFoodManager#0;class#UsermanagerController#0" />
+            <element signature="method#addFlavor#0;class#UsermanagerController#0" />
+            <element signature="method#delStudent#0;class#UsermanagerController#0" />
+            <element signature="method#modifyStudent#0;class#UsermanagerController#0" />
+            <element signature="method#searchCook#0;class#UsermanagerController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/controller/superController/SuperManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="232" column="44" selection-start-line="232" selection-start-column="31" selection-end-line="232" selection-end-column="44" />
+          <folding>
+            <element signature="method#getSuperManager#0;class#SuperManagerController#0" />
+            <element signature="method#getFoodManager#0;class#SuperManagerController#0" />
+            <element signature="method#getUserManager#0;class#SuperManagerController#0" />
+            <element signature="method#delManager#0;class#SuperManagerController#0" />
+            <element signature="method#modifyManager#0;class#SuperManagerController#0" />
+            <element signature="method#addManager#0;class#SuperManagerController#0" />
+            <element signature="method#ownChange#0;class#SuperManagerController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/controller/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/static/css/login.css" />
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1330">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/superManager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="54" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/userManager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/controller/foodManagerController/FoodManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="130" column="21" lean-forward="true" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+          <folding>
+            <element signature="method#getFoodManager#0;class#FoodManagerController#0" />
+            <element signature="method#delManager#0;class#FoodManagerController#0" />
+            <element signature="method#modifyManager#0;class#FoodManagerController#0" />
+            <element signature="method#addFlavor#0;class#FoodManagerController#0" />
+            <element signature="method#searchFlavor#0;class#FoodManagerController#0" />
+            <element signature="method#checkFood#0;class#FoodManagerController#0" />
+            <element signature="method#modifyFood#0;class#FoodManagerController#0" />
+            <element signature="method#addFood#0;class#FoodManagerController#0" />
+            <element signature="method#addCookOfFood#0;class#FoodManagerController#0" />
+            <element signature="method#searchFood#0;class#FoodManagerController#0" />
+            <element signature="method#checkCook#0;class#FoodManagerController#0" />
+            <element signature="method#addCook#0;class#FoodManagerController#0" />
+            <element signature="method#delCook#0;class#FoodManagerController#0" />
+            <element signature="method#modifyCook#0;class#FoodManagerController#0" />
+            <element signature="method#searchCook#0;class#FoodManagerController#0" />
+            <element signature="method#showFood#0;class#FoodManagerController#0" />
+            <element signature="method#showCook#0;class#FoodManagerController#0" />
+            <element signature="method#upload#0;class#FoodManagerController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/controller/KaptchaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#defaultKaptcha#0;class#KaptchaController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/mapper/FoodManagerDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="239" column="57" selection-start-line="239" selection-start-column="57" selection-end-line="239" selection-end-column="57" />
+          <folding>
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#4;n#mapper#0;n#!!top" />
+            <element signature="n#select#5;n#mapper#0;n#!!top" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#6;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#7;n#mapper#0;n#!!top" />
+            <element signature="n#delete#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#8;n#mapper#0;n#!!top" />
+            <element signature="n#select#9;n#mapper#0;n#!!top" />
+            <element signature="n#select#10;n#mapper#0;n#!!top" />
+            <element signature="n#select#11;n#mapper#0;n#!!top" />
+            <element signature="n#select#12;n#mapper#0;n#!!top" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#13;n#mapper#0;n#!!top" />
+            <element signature="n#select#14;n#mapper#0;n#!!top" />
+            <element signature="n#insert#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#15;n#mapper#0;n#!!top" />
+            <element signature="n#delete#3;n#mapper#0;n#!!top" />
+            <element signature="n#update#4;n#mapper#0;n#!!top" />
+            <element signature="n#select#16;n#mapper#0;n#!!top" />
+            <element signature="n#select#17;n#mapper#0;n#!!top" />
+            <element signature="n#select#18;n#mapper#0;n#!!top" />
+            <element signature="n#select#19;n#mapper#0;n#!!top" />
+            <element signature="n#select#20;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-dao/src/main/java/com/swpu/diet_healthydao/FoodManagerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Cook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="method#toString#0;class#Cook#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-domain/src/main/java/com/swpu/diet_healthydomain/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3082">
+          <caret line="601" column="37" selection-start-line="601" selection-start-column="37" selection-end-line="601" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/resources/templates/foodManagerHtmls/foodManagerCook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="83" column="49" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/configur/MyInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="method#postHandle#0;class#MyInterceptor#0" />
+            <element signature="method#afterCompletion#0;class#MyInterceptor#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/configur/KaptchaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-web/src/main/java/com/swpu/diet_healthyweb/configur/MyMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/impl/FoodManagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="192" column="47" selection-start-line="192" selection-start-column="47" selection-end-line="192" selection-end-column="47" />
+          <folding>
+            <element signature="e#2167#2168#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#4462#4463#0" expanded="true" />
+            <element signature="e#4520#4521#0" expanded="true" />
+            <element signature="e#4578#4579#0" expanded="true" />
+            <element signature="e#4636#4637#0" expanded="true" />
+            <element signature="e#4695#4696#0" expanded="true" />
+            <element signature="e#4755#4756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy-service/src/main/java/com/swpu/diet_healthyservice/FoodManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diet_healthy.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>diet_healthy-web:Web2 exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>diet_healthy-web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

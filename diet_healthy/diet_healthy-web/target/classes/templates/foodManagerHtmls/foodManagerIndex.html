@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>foodManagerIndex</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <script type="text/javascript" src="/webjars/jquery/3.3.1-2/jquery.js"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+</head>
+<body>
+    <div class="container" th:fragment="test1">
+        <div class="well">
+            <span>欢迎您登陆大学生健康饮食平台菜品管理员后台系统，在这里你可以修改自己的密码、查看自己的信息，可以对用户口味、
+               菜品原料和菜谱进行查看、更改、增加，请谨慎修改</span>
+            <h2><small><span th:text="${msg}" style="color: red"></span></small></h2>
+        </div>
+    </div>
+</body>
+</html>

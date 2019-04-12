@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.swpu.diet_healthydao.StudentManagerDao" >
+    <select id="checkAllStudent" parameterType="page" resultType="student">
+   		select * from student LIMIT #{startIndex},#{perList}
+   </select>
+    <select id="getAllStudentCount" resultType="Integer">
+        select COUNT(*) from student
+    </select>
+    <select id="checkStudentPhone" resultType="student" parameterType="student">
+        select * from student where phone=#{phone}
+    </select>
+    <insert id="addStudent" parameterType="student">
+        insert into student(s_id,phone,sex,password,real_name,school,grade,nick_name,creation,modified)
+         values(#{s_id},#{phone},#{sex},#{password},#{real_name},#{school},#{grade},#{nick_name},curdate(),curdate())
+    </insert>
+    <delete id="delStudent" parameterType="Integer">
+        delete from student where id=#{id}
+    </delete>
+    <update id="modifyStudent" parameterType="student">
+        update student
+        <set>
+            <if test="s_id != null and s_id != ''">
+                s_id=#{s_id},
+            </if>
+            <if test="phone != null and phone != ''">
+                phone=#{phone},
+            </if>
+            <if test="sex != null and sex != ''">
+                sex=#{sex},
+            </if>
+            <if test="password != null and password != ''">
+                password=#{password},
+            </if>
+            <if test="real_name != null and real_name != ''">
+                real_name=#{real_name},
+            </if>
+            <if test="school != null and school != ''">
+                school=#{school},
+            </if>
+            <if test="grade != null and grade != ''">
+                grade=#{grade},
+            </if>
+            <if test="nick_name != null and nick_name != ''">
+                nick_name=#{nick_name},
+            </if>
+            <if test="true">
+                modified=curdate(),
+            </if>
+        </set>
+        where id=#{id}
+    </update>
+    <select id="checkStudentNickName" resultType="student" parameterType="student">
+        select * from student where nick_name=#{nick_name}
+    </select>
+    <select id="searchStudent" parameterType="student" resultType="student">
+        select * from student
+        <where>
+            <if test="s_id != null and s_id != ''">
+                s_id=#{s_id}
+            </if>
+            <if test="id != null and id != ''">
+                and id=#{id}
+            </if>
+            <if test="phone != null and phone != ''">
+               and phone=#{phone}
+            </if>
+            <if test="sex != null and sex != ''">
+                and sex=#{sex}
+            </if>
+            <if test="creation != null and creation != ''">
+               and creation=#{creation}
+            </if>
+            <if test="real_name != null and real_name != ''">
+                and real_name=#{real_name}
+            </if>
+            <if test="school != null and school != ''">
+                and school=#{school}
+            </if>
+            <if test="grade != null and grade != ''">
+                and grade=#{grade}
+            </if>
+            <if test="nick_name != null and nick_name != ''">
+                and nick_name=#{nick_name}
+            </if>
+            <if test="modified != null and modified != ''">
+                and modified=#{modified}
+            </if>
+        </where>
+        LIMIT #{start},#{end}
+    </select>
+    <select id="searchStudentCount" parameterType="student" resultType="Integer">
+        select COUNT(*) from student
+        <where>
+            <if test="s_id != null and s_id != ''">
+                s_id=#{s_id}
+            </if>
+            <if test="id != null and id != ''">
+                and id=#{id}
+            </if>
+            <if test="phone != null and phone != ''">
+                and phone=#{phone}
+            </if>
+            <if test="sex != null and sex != ''">
+                and sex=#{sex}
+            </if>
+            <if test="creation != null and creation != ''">
+                and creation=#{creation}
+            </if>
+            <if test="real_name != null and real_name != ''">
+                and real_name=#{real_name}
+            </if>
+            <if test="school != null and school != ''">
+                and school=#{school}
+            </if>
+            <if test="grade != null and grade != ''">
+                and grade=#{grade}
+            </if>
+            <if test="nick_name != null and nick_name != ''">
+                and nick_name=#{nick_name}
+            </if>
+            <if test="modified != null and modified != ''">
+                and modified=#{modified}
+            </if>
+        </where>
+    </select>
+</mapper>
+
+
+
+

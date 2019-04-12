@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>foodManagerFlavor</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <script type="text/javascript" src="/webjars/jquery/3.3.1-2/jquery.js"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+</head>
+<body>
+<div class="container" th:fragment="flavor">
+    <div class="well">
+            <h2>口味管理<small><span th:text="${msg}" style="color: red"></span></small></h2>
+    </div>
+    <div>
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <div class="col-sm-2">
+                    <label>口味名称</label>
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="searchFlavorName" >
+                </div>
+                <div class="col-sm-4">
+                    <button type="button" class="btn btn-primary" onclick="searchFlavor()">查询</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <hr>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+            <tr class="active">
+                <th>编号</th>
+                <th>名称</th>
+                <th>创建时间</th>
+                <th>上次修改时间</th>
+                <th colspan=2>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="success" th:each="flavor:${session.searchFlavors.getList()}">
+                <td th:text="${flavor.id}"></td>
+                <td th:text="${flavor.name}"></td>
+                <td th:text="${flavor.creation}"></td>
+                <td th:text="${flavor.modified}"></td>
+                <td><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myFlavorModal" th:onclick="'javascript:modify('+${flavor.id}+');'">修改</button></td>
+                <td><button type="button" class="btn btn-danger" th:onclick="'javascript:del('+${flavor.id}+');'">删除</button></td>
+            </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript" th:inline="javascript">
+            function toFlavorPage(){
+                var count = $("#page option:selected").val();
+                location='/checkFlavor'+'/'+count;
+            }
+        </script>
+        <nav>
+            <ul class="pager">
+                <li class="disabled" th:if="${session.searchFlavors.getCurrentPage()==1}"><a href="">首页</a> </li>
+                <li th:if="${session.searchFlavors.getCurrentPage()!=1}"><a th:href="@{/checkFlavor}">首页</a> </li>
+                <li class="disabled" th:if="${session.searchFlavors.getCurrentPage()==1}"><a href="">上一页</a> </li>
+                <li th:if="${session.searchFlavors.getCurrentPage()!=1}"><a th:href="@{'/checkFlavor/'+${session.searchFlavors.getCurrentPage()-1}}">上一页</a> </li>
+                <li class="disabled" th:if="${session.searchFlavors.getCurrentPage()==session.searchFlavors.getPageCount()}"><a href="">下一页</a> </li>
+                <li th:if="${session.searchFlavors.getCurrentPage()!=session.searchFlavors.getPageCount()}"><a th:href="@{'/checkFlavor/'+${session.searchFlavors.getCurrentPage()+1}}">下一页</a> </li>
+                <li class="disabled" th:if="${session.searchFlavors.getCurrentPage()==session.searchFlavors.getPageCount()}"><a href="">末页</a> </li>
+                <li th:if="${session.searchFlavors.getCurrentPage()!=session.searchFlavors.getPageCount()}"><a th:href="@{'/checkFlavor/'+${session.searchFlavors.getPageCount()}}">末页</a> </li>
+                <li><select class="btn btn-default" id="page">
+                    <option th:each="i:${#numbers.sequence(1, session.searchFlavors.getPageCount())}" th:value="${i}"
+                            th:text="${i}" th:selected="${session.searchFlavors.getCurrentPage() eq i}" ></option>
+                </select></li>
+                <li><button type="button" class="btn btn-primary" onclick="toFlavorPage()">跳转</button> </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</body>
+</html>

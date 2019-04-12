@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.swpu.diet_healthydao.ManagerDao" >
+	<select id="findManager" parameterType="manager" resultType="manager">
+   		select * from manager where name=#{name} and password=#{password} and actor=#{actor}
+   </select>
+   <select id="findAllManager" resultType="manager">
+   		select * from manager
+   </select>
+    <update id="managerModifyPassword" parameterType="manager">
+        update manager set password=#{password},modified=curdate() where id=#{id}
+    </update>
+</mapper>
